@@ -1,14 +1,13 @@
-# Oauth2.0-test for browswer in react
-This project demonstrates how to implement OAuth 2.0 login functionality in a React application using a custom `OAuthClient` class. The app enables users to authenticate via their Google account, fetches their profile data, and displays it.
+# Oauth2.0-test for browser in react
 
----
+A lightweight JavaScript library for handling OAuth 2.0 authentication flows. This package simplifies the OAuth process, providing methods to generate authorization URLs, exchange authorization codes for access tokens, and refresh expired tokens.
 
 ## Features
 
-- **Login with Google OAuth 2.0**: Users can log in securely via their Google accounts.
-- **User Profile Display**: Fetches and displays user details like name, email, and profile picture.
-- **Token Management**: Manages access and refresh tokens with proper error handling.
-- **Fallback Profile Image**: Displays a default profile picture if the user has none.
+- Generate OAuth 2.0 authorization URLs for authentication.
+- Handle callback and exchange authorization code for tokens.
+- Refresh expired access tokens using a refresh token.
+- Easy integration with OAuth 2.0 endpoints.
 
 ---
 
