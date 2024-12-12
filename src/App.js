@@ -32,7 +32,7 @@ const App = () => {
             setUserData(profile); // Set user data to state
         } catch (error) {
             console.error('Error fetching user profile:', error);
-            alert('Failed to fetch user profile.');
+            // alert('Failed to fetch user profile.');
         }
     };
 
